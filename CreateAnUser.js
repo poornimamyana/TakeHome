@@ -1,4 +1,4 @@
-const axios = require('axios'); //http librarz used to make a call to the Backend or API
+const axios = require('axios'); //http library used to make a call to the Backend or API
 var chai = require('chai');  //Verification library
 var expect = chai.expect;
 	
