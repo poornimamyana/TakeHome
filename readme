@@ -1,0 +1,5 @@
+Prerequisites-
+
+Install node js and npm module on your machine
+Install "axios" http client
+Install "chai" verification library
