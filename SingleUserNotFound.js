@@ -2,8 +2,8 @@ const axios = require('axios'); //http library used to make a call to the Backen
 var chai = require('chai');  //Verification library  
 var expect = chai.expect;
 
-// Make a GET request to retreive a Single User based on id that is out of scope. Here it is values >12. Let me pick 14
-axios.get('https://reqres.in/api/users/56')
+// Make a GET request to retreive a Single User based on id that is out of scope. Here id=13
+axios.get('https://reqres.in/api/users/13')
     .catch(error => {
         console.log(error.toJSON());
         if (error.response) {
