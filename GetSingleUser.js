@@ -2,7 +2,7 @@ const axios = require('axios'); //http library used to make a call to the Backen
 var chai = require('chai');  //Verification library  
 var expect = chai.expect;
 
-// Make a GET request to retreive a Single User based on id, here we have 12 users with 2 pages, let me pick 12th user
+// Make a GET request to retreive a Single User based on id, here id=4
 axios.get('https://reqres.in/api/users/4')
     .then(response => {
         console.log(response.status);
