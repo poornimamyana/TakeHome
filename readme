@@ -1,5 +1,11 @@
+Task 1:
+Please find the bug report for the Account Information form in the word document - "AccountInformation_BugReport.docx"
+
+
+Task 2:
 Prerequisites-
 
 Install node js and npm module on your machine
 Install "axios" http client
 Install "chai" verification library
+
